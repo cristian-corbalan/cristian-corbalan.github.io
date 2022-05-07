@@ -1,0 +1,87 @@
+/// Regular font family
+/// @type List
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+
+/// Text color black
+/// @type Color
+$font-black: #333333;
+
+/// Text color black with opacity
+/// @type Color
+$font-black-60: rgba($font-black, .6);
+
+/// Text color white
+/// @type Color
+$font-white: #FFFFFF;
+
+/// Text color white with opacity
+/// @type Color
+$font-white-60: rgba($font-white, .6);
+
+
+/// Brown
+/// @type Color
+$brown: #735F4E;
+
+/// Brown whit opacity
+/// @type Color
+$brown-75: rgba($brown, .75);
+
+/// Blue
+/// @type Color
+$blue: #5CAEBF;
+
+/// Blue whit opacity
+/// @type Color
+$blue-75: rgba($blue, .75);
+
+/// Green
+/// @type Color
+$green: #59A8A0;
+
+/// Green whit opacity
+/// @type Color
+$green-75: rgba($green, .75);
+
+
+/// Background color milk white
+/// @type Color
+$background-milk-white: #FBFBFB;
+
+/// Background color white
+/// @type Color
+$background-white: #FFFFFF;
+
+
+/// Brand color brown
+/// @type Color
+$brand-brown: #5B4A42;
+
+/// Brand color Black
+/// @type Color
+$brand-black: #333333;
+
+
+/// Utility colors map
+/// @type Color
+$utility-color: (
+        'positive': #03804D,
+        'positive-subtle': #D4F3E6,
+        'caution': #A59B15,
+        'caution-subtle': #FFFECF,
+        'negative': #B43E3E,
+        'negative-subtle': #FDDED8,
+        'information': #0192D0,
+        'information-subtle': #D3F2FF
+);
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+        'small': 320px,
+        'medium': 768px,
+        'large': 1024px,
+);
