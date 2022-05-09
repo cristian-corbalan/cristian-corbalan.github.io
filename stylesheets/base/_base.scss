@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+* {
+  line-height: 1.6em;
+}
+
+a {
+  transition: color 300ms;
+
+  @include on-event {
+    color: $green;
+  }
+}
