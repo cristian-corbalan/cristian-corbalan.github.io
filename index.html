@@ -1,13 +1,270 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+          content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Cristian Corbalan</title>
+    <title>Cristian Corbalan | Diseñador web y desarrollador web full stack</title>
+
+    <!--Boxicons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="stylesheets/main.css">
 </head>
 <body>
+<div class="skip">
+    <a href="#main-content" class="skip__link sr-only">Saltar al contenido</a>
+</div>
 
+<header class="main-header">
+    <h1 class="main-header__title" id="logo"><a href="#">Cristian Corbalan</a></h1>
+
+    <nav class="main-nav">
+        <ul class="main-nav__list">
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__link main-nav__link--active">
+                    <span class="bx bx-home"></span>
+                    Inicio</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__link">
+                    <span class="bx bx-briefcase"></span>
+                    Trabajos</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__link">
+                    <span class="bx bx-user"></span>
+                    Acerca de</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__link">
+                    <span class="bx bx-message"></span>
+                    Contacto</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main" id="main-content">
+    <article class="hero-image">
+        <p class="hero-image__welcome">Hola, bienvenido</p>
+
+        <h2 class="hero-image__title">Yo soy <span class="d-block">Cristian Corbalan</span></h2>
+
+        <p class="hero-image-profession">
+            <span class="hero-image-profession__designer">Diseñador</span>
+            <span class="hero-image-profession__and">y</span>
+            <span class="hero-image-profession__developer">Desarrollador web</span>
+        </p>
+
+        <a href="#" class="button button--field button--white button--shadow">Contactar</a>
+    </article>
+
+    <section class="services">
+        <h2 class="services__title">Servicios</h2>
+
+        <ul class="services__list">
+            <li class="services__item">
+                <h3 class="services__subtitle">Diseño</h3>
+                <div class="services__image services__image--design"></div>
+                <p class="services__text services__text--bold">Descubrir los problemas que están ocultos, y
+                    solucionarlos de forma efectiva con diseño</p>
+                <p class="services__text">Trabajos que se encargan desde un sitio web, una tienda online hasta el
+                    aumentar los registros y
+                    duración del sitio o promover alguna parte particular de su negocio.</p>
+            </li>
+            <li class="services__item">
+                <h3 class="services__subtitle">Desarrollo</h3>
+                <div class="services__image services__image--develop"></div>
+                <p class="services__text services__text--bold">Usar distintos lenguajes para crear soluciones que den
+                    vida a tus proyectos digitales</p>
+                <p class="services__text">Abarcan desde front-end hasta back-end dando posibilidades casi ilimitadas
+                    para la experiencia y
+                    desarrollo de tus proyectos, ofreciendo dinamismo y efectividad a cualquier sitio web o app</p>
+            </li>
+        </ul>
+
+        <a href="#" class="button-link button-link--black">
+            <span class="button-link__text">Ir al portafolio</span>
+            <span class="button-link__icon bx bx-right-arrow-alt"></span>
+        </a>
+    </section>
+
+    <article class="about">
+        <h2 class="about__title">Sobre mi</h2>
+
+        <img src="#" alt="Yo con mi mascota" class="about__image"/>
+        <p class="about__subtitle">Siempre en búsqueda de nuevas experiencias y desafíos.</p>
+
+        <p class="about__text">Me llamo Cristian Ariel Corbalan, actualmente estoy en el interminable camino del
+            descubrimiento y de la
+            obtención de nuevos conocimientos, específicamente aquellos con los cual pueda potenciar mis habilidades de
+            diseño y/o desarrollo</p>
+
+        <p class="about__text">Me apasiona crear productos desafiantes y accesibles con los cuales pueda poner a prueba
+            mis conocimientos y
+            habilidades</p>
+
+        <a href="#" class="button-link button-link--white">
+            <span class="button-link__text">Más sobre mi</span>
+            <span class="button-link__icon bx bx-right-arrow-alt"></span>
+        </a>
+    </article>
+
+    <section class="projects">
+        <h2 class="projects__title">Proyectos</h2>
+
+        <p class="projects__text">Llegó la hora de descubrir un poco sobre mi trabajo. Aquí puedes observar una muestra
+            de los últimos
+            proyectos que realicé</p>
+
+        <ul class="projects__list">
+            <li class="projects__item">
+                <a href="#" class="projects__link">
+                    <div class="project">
+                        <div class="project__figure ">
+                            <img class="project__image" src="https://dummyimage.com/288x288/c757c7/fff"
+                                 alt="Proyecto x"/>
+                        </div>
+
+                        <div class="project__information">
+                            <h3 class="project__title">Título</h3>
+
+                            <ul class="project__categories">
+                                <li class="project__category">Categoría 1</li>
+                                <li class="project__category">Categoría 2</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="projects__item">
+                <a href="#" class="projects__link">
+                    <div class="project">
+                        <div class="project__figure ">
+                            <img class="project__image" src="https://dummyimage.com/288x288/c757c7/fff"
+                                 alt="Proyecto x"/>
+                        </div>
+
+                        <div class="project__information">
+                            <h3 class="project__title">Título</h3>
+
+                            <ul class="project__categories">
+                                <li class="project__category">Categoría 1</li>
+                                <li class="project__category">Categoría 2</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="projects__item">
+                <a href="#" class="projects__link">
+                    <div class="project">
+                        <div class="project__figure ">
+                            <img class="project__image" src="https://dummyimage.com/288x288/c757c7/fff"
+                                 alt="Proyecto x"/>
+                        </div>
+
+                        <div class="project__information">
+                            <h3 class="project__title">Título</h3>
+
+                            <ul class="project__categories">
+                                <li class="project__category">Categoría 1</li>
+                                <li class="project__category">Categoría 2</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+        <p class="projects__subtitle">¿Quieres ver más?</p>
+
+        <p class="projects__text">Visita mi <a href="#" class="projects__text-link">portafolio</a>, ahí encontrarás el
+            listado con todos mis trabajos</p>
+    </section>
+
+    <section class="specific-services">
+        <h2 class="specific-services__title">Formas en la que puedo ayudarte</h2>
+
+        <ul class="specific-services__list">
+            <li class="specific-services__item">
+                <div class="specific-services__image"></div> <!-- Ilustración -->
+
+                <h3 class="specific-services__subtitle">Diseñando tu producto digital</h3>
+
+                <p class="specific-services__description">Desde el diseño de un nuevo producto hasta la solución de
+                    problemas, cumpliendo con los objetivos
+                    necesarios a través de estrategias y diseño UX UI </p>
+            </li>
+            <li>
+                <div class="specific-services__image"></div>
+
+                <h3 class="specific-services__subtitle">Construyendo un sitio web personalizado</h3>
+
+                <p class="specific-services__description">A través de distintos lenguajes puedo realizar hasta proyectos
+                    complejos, haciendo de tu sitio algo
+                    eficaz y agradable para aquellos que visiten tu sitio web</p>
+            </li>
+            <li>
+                <div class="specific-services__image"></div>
+
+                <h3 class="specific-services__subtitle">Haciendo el diseño y el desarrollo de tu aplicación</h3>
+
+                <p class="specific-services__description">Creando o transformando tu sitio en una aplicación, de modo
+                    que este se pueda instalar tanto en
+                    dispositivos móviles como en el escritorio.</p>
+            </li>
+            <li>
+                <div class="specific-services__image"></div>
+
+                <h3 class="specific-services__subtitle">Creando un flyer o banner publicitario</h3>
+
+                <p class="specific-services__description">Puedo realizar trabajos simples de diseño gráfico. ¿Necesitas
+                    algo más complejo? Conozco un diseñador
+                    genial que puedo recomendarte</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <div class="contact__texts-container">
+            <h2 class="contact__title">¿Tienes un proyecto en mente?</h2>
+
+            <p class="contact__link-question">¿Qué tal si empezamos <a href="#" class="contact__link">diciendo
+                “hola”</a>?</p>
+        </div>
+
+        <div class="contact-social">
+            <p class="contact-social__text">También puedes encontrarme en las siguientes redes sociales</p>
+
+            <ul class="contact-social__list">
+                <li class="contact-social__item">
+                    <a href="#" class="contact-social__link">
+                        <span class="contact-social__link-text">GitHub</span>
+                        <span class="contact-social__link-icon bx bxl-github"></span>
+                    </a>
+                </li>
+                <li class="contact-social__item">
+                    <a href="#" class="contact-social__link">
+                        <span class="contact-social__link-text">Linkedin</span>
+                        <span class="contact-social__link-icon bx bxl-linkedin"></span>
+                    </a>
+                </li>
+                <li class="contact-social__item">
+                    <a href="#" class="contact-social__link">
+                        <span class="contact-social__link-text">Instagram</span>
+                        <span class="contact-social__link-icon bx bxl-instagram"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+<footer class="main-footer">
+    <p class="main-footer__copyright">Copyright © 2022 - Corbalan Cristian Ariel</p>
+</footer>
 </body>
 </html>
