@@ -31,7 +31,7 @@
 
 .hero-image__welcome {
   margin: 0 0 1rem;
-  @include title(1.2rem, 400, none);
+  @include title(1.125rem, 400, none);
 
 }
 
@@ -53,4 +53,19 @@
 
 .hero-image__button {
   margin-bottom: 1.5rem;
+}
+
+@include for-size('small-tablet-up') {
+  .hero-image__welcome {
+    font-size: 1.5rem;
+  }
+
+  .hero-image__title {
+    font-size: 2rem;
+  }
+
+  .hero-image-profession {
+    font-size: 1.125rem;
+    max-width: 340px;
+  }
 }

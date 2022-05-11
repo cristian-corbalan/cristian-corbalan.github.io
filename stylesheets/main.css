@@ -411,7 +411,7 @@ body {
   background-size: contain;
 }
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .main-header {
     display: flex;
     padding: 1rem;
@@ -482,7 +482,7 @@ body {
   overflow: hidden;
 }
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .main-nav {
     position: static;
     background: none;
@@ -625,7 +625,7 @@ body {
 .hero-image__welcome {
   margin: 0 0 1rem;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   text-transform: none;
 }
 
@@ -649,6 +649,21 @@ body {
 
 .hero-image__button {
   margin-bottom: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .hero-image__welcome {
+    font-size: 1.5rem;
+  }
+
+  .hero-image__title {
+    font-size: 2rem;
+  }
+
+  .hero-image-profession {
+    font-size: 1.125rem;
+    max-width: 340px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
