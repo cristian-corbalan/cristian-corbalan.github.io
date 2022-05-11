@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -362,7 +363,7 @@ a:hover, a:active, a:focus {
 
 body {
   color: #333333;
-  font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Lexend Deca", "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .main-footer {
@@ -587,6 +588,49 @@ body {
   outline-color: transparent;
   -webkit-transition: top 0.1s ease-in;
   transition: top 0.1s ease-in;
+}
+
+.hero-image {
+  position: relative;
+  background-image: url("../assets/images/home/m-hero-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 64px - 48px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #FFFFFF;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.hero-image:after {
+  font-family: "boxicons";
+  content: "\ea53";
+  position: absolute;
+  bottom: 16px;
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hero-image__welcome {
+  margin: 0 0 1rem;
+}
+
+.hero-image__title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.hero-image-profession {
+  display: flex;
+  justify-content: space-between;
+  max-width: 360px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
