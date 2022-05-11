@@ -10,7 +10,7 @@
 @import 'base/base', 'base/typography', 'base/helpers';
 
 // Layout-related sections
-@import 'layout/footer';
+@import 'layout/footer', 'layout/header', 'layout/navbar';
 
 // Components
 @import 'components/button';

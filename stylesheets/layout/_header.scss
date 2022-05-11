@@ -1,0 +1,44 @@
+.main-header {
+  position: relative;
+  padding: 1.5rem 0;
+
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+
+  background-color: $background-milk-white;
+}
+
+#logo {
+  position: absolute;
+  top: calc(50% - 12px);
+
+  text-indent: -2000px;
+  overflow: hidden;
+  height: 24px;
+  width: 100%;
+  margin: 0;
+
+  background-image: image("brand/logo-min-color.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@media screen and (min-width: map-get($breakpoints, 'large')) {
+  .main-header {
+    display: flex;
+
+    padding: 1rem;
+    align-items: center;
+
+    justify-content: space-between;
+  }
+
+  #logo {
+    position: static;
+
+    background-image: image("brand/logo-color.svg");
+
+    width: 160px;
+    height: 48px;
+  }
+}
