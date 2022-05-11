@@ -419,6 +419,14 @@ body {
     width: 160px;
     height: 48px;
   }
+
+  #logo a {
+    display: block;
+  }
+  #logo a:focus {
+    border: 1px solid #59A8A0;
+    border-radius: 3px;
+  }
 }
 .main-nav {
   position: fixed;
