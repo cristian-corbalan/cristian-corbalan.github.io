@@ -1,0 +1,56 @@
+.hero-image {
+  position: relative;
+
+  background-image: image('home/m-hero-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: calc(100vh - 64px - 48px);
+  min-height: 368px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  color: $font-white;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.hero-image:after {
+  font-family: 'boxicons';
+  content: "\ea53";
+  position: absolute;
+  bottom: 16px;
+  font-size: 32px;
+  color: $font-white-60;
+}
+
+.hero-image__welcome {
+  margin: 0 0 1rem;
+  @include title(1.2rem, 400, none);
+
+}
+
+.hero-image__title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  @include title(1.5rem);
+}
+
+.hero-image-profession {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: $font-white-60;
+}
+
+.hero-image__button {
+  margin-bottom: 1.5rem;
+}
