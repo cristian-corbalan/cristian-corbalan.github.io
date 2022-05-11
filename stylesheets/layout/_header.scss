@@ -24,7 +24,7 @@
   background-size: contain;
 }
 
-@media screen and (min-width: map-get($breakpoints, 'large')) {
+@include for-size('desktop-up') {
   .main-header {
     display: flex;
 

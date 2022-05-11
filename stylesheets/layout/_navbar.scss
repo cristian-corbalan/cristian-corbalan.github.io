@@ -47,7 +47,7 @@
   @include sr-only;
 }
 
-@media screen and (min-width: map-get($breakpoints, 'large')) {
+@include for-size('desktop-up') {
   .main-nav {
     position: static;
 
