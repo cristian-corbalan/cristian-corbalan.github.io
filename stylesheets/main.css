@@ -559,4 +559,26 @@ body {
   color: #FFFFFF;
 }
 
+.skip__link {
+  padding: 8px;
+  position: absolute;
+  top: -46px;
+  left: 0;
+  color: white;
+  border-bottom-right-radius: 3px;
+  background: #0192D0;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 100;
+}
+.skip__link:hover, .skip__link:active, .skip__link:focus {
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  outline-color: transparent;
+  -webkit-transition: top 0.1s ease-in;
+  transition: top 0.1s ease-in;
+}
+
 /*# sourceMappingURL=main.css.map */
