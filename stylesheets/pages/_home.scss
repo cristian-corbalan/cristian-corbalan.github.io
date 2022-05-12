@@ -4,6 +4,7 @@
   background-image: image('home/m-hero-image.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 
   height: calc(100vh - 64px - 48px);
   min-height: 368px;
@@ -56,6 +57,10 @@
 }
 
 @include for-size('small-tablet-up') {
+  .hero-image {
+    background-image: image('home/t-hero-image.jpg');
+  }
+
   .hero-image__welcome {
     font-size: 1.5rem;
   }
@@ -67,5 +72,13 @@
   .hero-image-profession {
     font-size: 1.125rem;
     max-width: 340px;
+  }
+}
+
+@include for-size('desktop-up') {
+  .hero-image {
+    background-image: image('home/d-hero-image.jpg');
+    height: calc(100vh - 80px);
+    min-height: 637px;
   }
 }

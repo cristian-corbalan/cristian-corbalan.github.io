@@ -601,6 +601,7 @@ body {
   background-image: url("../assets/images/home/m-hero-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: calc(100vh - 64px - 48px);
   min-height: 368px;
   display: flex;
@@ -652,6 +653,10 @@ body {
 }
 
 @media (min-width: 600px) {
+  .hero-image {
+    background-image: url("../assets/images/home/t-hero-image.jpg");
+  }
+
   .hero-image__welcome {
     font-size: 1.5rem;
   }
@@ -663,6 +668,13 @@ body {
   .hero-image-profession {
     font-size: 1.125rem;
     max-width: 340px;
+  }
+}
+@media (min-width: 1024px) {
+  .hero-image {
+    background-image: url("../assets/images/home/d-hero-image.jpg");
+    height: calc(100vh - 80px);
+    min-height: 637px;
   }
 }
 
