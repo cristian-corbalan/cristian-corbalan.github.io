@@ -21,6 +21,7 @@
   font-weight: $font-weight;
   font-size: $font-size;
   text-transform: $text-transform;
+  margin-top: 0;
 }
 
 @mixin sr-only {
