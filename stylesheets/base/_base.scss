@@ -26,3 +26,14 @@ ul {
   list-style: none;
   padding: 0;
 }
+
+.swiper-pagination {
+  position: static;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  width: 16px;
+  height: 4px;
+  border-radius: 1px;
+  background: $blue;
+}
