@@ -51,8 +51,8 @@ function enableServicesSwiper() {
 
         // Navigation arrows
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.services__button-next',
+            prevEl: '.services__button-prev',
         },
     });
 }
